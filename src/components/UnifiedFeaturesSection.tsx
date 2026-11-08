@@ -28,9 +28,9 @@ export const UnifiedFeaturesSection: React.FC = () => {
       {/* Sticky Viewport Stage: Perfectly Centered Viewport Pinning */}
       <div className="sticky top-0 w-full h-screen flex items-center justify-center overflow-hidden">
         
-        {/* Master 1440 x 700 SVG Coordinate Stage */}
+        {/* Master 1440 x 700 SVG Coordinate Stage (PC 缩小 10%：1440 * 0.9 = 1296px) */}
         <div 
-          className="relative w-full max-w-[1440px] aspect-[1440/700] mx-auto flex items-center justify-center overflow-visible"
+          className="relative w-[90%] max-w-[1296px] aspect-[1440/700] mx-auto flex items-center justify-center overflow-visible"
           style={{ aspectRatio: '1440 / 700' }}
         >
           {/* Ambient Lighting */}

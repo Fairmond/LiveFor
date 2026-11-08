@@ -99,11 +99,11 @@ export default function App() {
           <Hero />
           <PromoSection />
           <UnifiedFeaturesSection />
-          <div className="w-full max-w-[1440px] mx-auto aspect-[1440/93] min-h-[11px] sm:min-h-[16px] pointer-events-none" />
+          <div className="w-[90%] max-w-[1296px] mx-auto aspect-[1440/93] min-h-[10px] sm:min-h-[14px] pointer-events-none" />
           <BarberInfoSection />
-          <div className="w-full max-w-[1440px] mx-auto aspect-[1440/93] min-h-[11px] sm:min-h-[16px] pointer-events-none" />
+          <div className="w-[90%] max-w-[1296px] mx-auto aspect-[1440/93] min-h-[10px] sm:min-h-[14px] pointer-events-none" />
           <BrandPhilosophySection />
-          <div className="w-full max-w-[1440px] mx-auto aspect-[1440/280] min-h-[32px] sm:min-h-[48px] pointer-events-none" />
+          <div className="w-[90%] max-w-[1296px] mx-auto aspect-[1440/280] min-h-[29px] sm:min-h-[43px] pointer-events-none" />
           <HaircraftControlSection />
           <ExperienceIntroSection />
           <AppDownloadSection />

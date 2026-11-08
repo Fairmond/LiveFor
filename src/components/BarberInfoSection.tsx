@@ -21,7 +21,7 @@ export default function BarberInfoSection() {
       id="barber-info-section"
       className="relative w-full flex justify-center items-center bg-[#f9f9f9] select-none overflow-hidden"
     >
-      <div className="@container relative w-full max-w-[1440px] aspect-[1440/700] mx-auto overflow-hidden bg-[#f9f9f9]">
+      <div className="@container relative w-[90%] max-w-[1296px] aspect-[1440/700] mx-auto overflow-hidden bg-[#f9f9f9]">
         
         {/* 左侧大标题与下方描述模块：依循 1440x700 画布坐标对齐 */}
         <div 

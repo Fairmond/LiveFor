@@ -7,7 +7,7 @@ export default function BrandPhilosophySection() {
       id="brand-philosophy-section"
       className="relative w-full flex flex-col items-center justify-center overflow-hidden bg-brand-bg select-none py-4 sm:py-12 px-2 sm:px-4"
     >
-      <div className="w-full max-w-[1440px] aspect-[1440/699]">
+      <div className="w-[90%] max-w-[1296px] aspect-[1440/699]">
         <svg 
           xmlns="http://www.w3.org/2000/svg" 
           xmlnsXlink="http://www.w3.org/1999/xlink" 
@@ -117,108 +117,130 @@ export default function BrandPhilosophySection() {
           <g style={{ transform: 'scale(0.85)', transformOrigin: '720px 350px' }}>
           <g id="组_150" data-name="组 150" transform="translate(2 -3248)">
             {/* Card 1: 贴面烫发 */}
+            {/* Card 1: 贴面烫发 (从右侧滑入入场) */}
             <g id="组_147" data-name="组 147" transform="translate(4 162)">
               <motion.g
-                id="贴面烫发"
-                whileHover={{ scale: 1.03 }}
-                transition={{ type: 'spring', stiffness: 260, damping: 28 }}
-                style={{ transformOrigin: '313px 3594.5px', cursor: 'pointer' }}
+                initial={{ opacity: 0, x: 140 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true, amount: 0.2 }}
+                transition={{ duration: 0.8, delay: 0.1, ease: [0.16, 1, 0.3, 1] as const }}
               >
-                <g
-                  style={{
-                    filter: "url(#bp-filter-perm)",
-                    mixBlendMode: "hard-light",
-                    isolation: "isolate",
-                  }}
-                  transform="translate(-6 3135)"
+                <motion.g
+                  id="贴面烫发"
+                  whileHover={{ scale: 1.03 }}
+                  transition={{ type: 'spring', stiffness: 260, damping: 28 }}
+                  style={{ transformOrigin: '313px 3594.5px', cursor: 'pointer' }}
                 >
-                  <path
-                    id="使用工具生成图片_4_2"
-                    d="M0 0h313v443H0z"
-                    data-name="使用工具生成图片 (4)"
+                  <g
                     style={{
-                      fill: "url(#bp-pattern)",
+                      filter: "url(#bp-filter-perm)",
+                      mixBlendMode: "hard-light",
+                      isolation: "isolate",
                     }}
-                    transform="translate(164 238)"
+                    transform="translate(-6 3135)"
+                  >
+                    <path
+                      id="使用工具生成图片_4_2"
+                      d="M0 0h313v443H0z"
+                      data-name="使用工具生成图片 (4)"
+                      style={{
+                        fill: "url(#bp-pattern)",
+                      }}
+                      transform="translate(164 238)"
+                    />
+                  </g>
+                  <image
+                    xlinkHref="/贴面烫发.png"
+                    id="使用工具生成图片_4_3"
+                    width={314}
+                    height={443}
+                    data-name="使用工具生成图片 (4)"
+                    transform="translate(156 3373)"
                   />
-                </g>
-                <image
-                  xlinkHref="/贴面烫发.png"
-                  id="使用工具生成图片_4_3"
-                  width={314}
-                  height={443}
-                  data-name="使用工具生成图片 (4)"
-                  transform="translate(156 3373)"
-                />
+                </motion.g>
               </motion.g>
             </g>
 
-            {/* Card 2: 如风自由 */}
+            {/* Card 2: 如风自由 (从右侧滑入入场) */}
             <g id="组_148" data-name="组 148" transform="translate(12 159.072)">
               <motion.g
-                id="如风自由"
-                whileHover={{ scale: 1.03 }}
-                transition={{ type: 'spring', stiffness: 260, damping: 28 }}
-                style={{ transformOrigin: '703.5px 3594.9px', cursor: 'pointer' }}
+                initial={{ opacity: 0, x: 180 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true, amount: 0.2 }}
+                transition={{ duration: 0.8, delay: 0.22, ease: [0.16, 1, 0.3, 1] as const }}
               >
-                <g
-                  style={{
-                    filter: "url(#bp-filter-wind)",
-                  }}
-                  transform="translate(-14 3137.93)"
+                <motion.g
+                  id="如风自由"
+                  whileHover={{ scale: 1.03 }}
+                  transition={{ type: 'spring', stiffness: 260, damping: 28 }}
+                  style={{ transformOrigin: '703.5px 3594.9px', cursor: 'pointer' }}
                 >
+                  <g
+                    style={{
+                      filter: "url(#bp-filter-wind)",
+                    }}
+                    transform="translate(-14 3137.93)"
+                  >
+                    <image
+                      xlinkHref="/如风自由体积.png"
+                      id="如风自由体积-2"
+                      width={318}
+                      height={443}
+                      data-name="如风自由体积"
+                      transform="translate(563 238)"
+                    />
+                  </g>
                   <image
-                    xlinkHref="/如风自由体积.png"
-                    id="如风自由体积-2"
-                    width={318}
-                    height={443}
-                    data-name="如风自由体积"
-                    transform="translate(563 238)"
+                    xlinkHref="/如风自由.png"
+                    id="如风自由-2"
+                    width={315}
+                    height={444}
+                    data-name="如风自由"
+                    transform="translate(546 3372.928)"
                   />
-                </g>
-                <image
-                  xlinkHref="/如风自由.png"
-                  id="如风自由-2"
-                  width={315}
-                  height={444}
-                  data-name="如风自由"
-                  transform="translate(546 3372.928)"
-                />
+                </motion.g>
               </motion.g>
             </g>
 
-            {/* Card 3: 阳光温柔 */}
+            {/* Card 3: 阳光温柔 (从右侧滑入入场) */}
             <g id="组_149" data-name="组 149" transform="translate(24 162.014)">
               <motion.g
-                id="阳光温柔"
-                whileHover={{ scale: 1.03 }}
-                transition={{ type: 'spring', stiffness: 260, damping: 28 }}
-                style={{ transformOrigin: '1092px 3594.5px', cursor: 'pointer' }}
+                initial={{ opacity: 0, x: 220 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true, amount: 0.2 }}
+                transition={{ duration: 0.8, delay: 0.34, ease: [0.16, 1, 0.3, 1] as const }}
               >
-                <g
-                  style={{
-                    filter: "url(#bp-filter-sun)",
-                  }}
-                  transform="translate(-26 3134.99)"
+                <motion.g
+                  id="阳光温柔"
+                  whileHover={{ scale: 1.03 }}
+                  transition={{ type: 'spring', stiffness: 260, damping: 28 }}
+                  style={{ transformOrigin: '1092px 3594.5px', cursor: 'pointer' }}
                 >
-                  <path
-                    id="阳光温柔体积-2"
-                    d="M0 0h316v443H0z"
-                    data-name="阳光温柔体积"
+                  <g
                     style={{
-                      fill: "url(#bp-pattern-sun)",
+                      filter: "url(#bp-filter-sun)",
                     }}
-                    transform="translate(963 238)"
+                    transform="translate(-26 3134.99)"
+                  >
+                    <path
+                      id="阳光温柔体积-2"
+                      d="M0 0h316v443H0z"
+                      data-name="阳光温柔体积"
+                      style={{
+                        fill: "url(#bp-pattern-sun)",
+                      }}
+                      transform="translate(963 238)"
+                    />
+                  </g>
+                  <image
+                    xlinkHref="/阳光温柔.png"
+                    id="阳光温柔-2"
+                    width={316}
+                    height={443}
+                    data-name="阳光温柔"
+                    transform="translate(934 3372.986)"
                   />
-                </g>
-                <image
-                  xlinkHref="/阳光温柔.png"
-                  id="阳光温柔-2"
-                  width={316}
-                  height={443}
-                  data-name="阳光温柔"
-                  transform="translate(934 3372.986)"
-                />
+                </motion.g>
               </motion.g>
             </g>
 
