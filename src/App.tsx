@@ -37,6 +37,31 @@ export default function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  // 切换点：移动端需双重满足（宽度 < 768px 且 屏幕比例 < 1:1）；桌面端满足单一条件即可（宽度 >= 768px 或 屏幕比例 >= 1:1）
+  const [isMobile, setIsMobile] = useState(() => {
+    if (typeof window === 'undefined') return false;
+    const isWidthSmall = window.innerWidth < 768;
+    const isPortrait = (window.innerWidth / window.innerHeight) < 1;
+    return isWidthSmall && isPortrait;
+  });
+
+  useEffect(() => {
+    const handleBreakpoint = () => {
+      const isWidthSmall = window.innerWidth < 768;
+      const isPortrait = (window.innerWidth / window.innerHeight) < 1;
+      setIsMobile(isWidthSmall && isPortrait);
+    };
+
+    handleBreakpoint();
+    window.addEventListener('resize', handleBreakpoint);
+    window.addEventListener('orientationchange', handleBreakpoint);
+
+    return () => {
+      window.removeEventListener('resize', handleBreakpoint);
+      window.removeEventListener('orientationchange', handleBreakpoint);
+    };
+  }, []);
+
   useEffect(() => {
     if ('scrollRestoration' in window.history) {
       window.history.scrollRestoration = 'manual';
@@ -91,38 +116,40 @@ export default function App() {
   return (
     <GridHoverProvider>
       <main className="relative bg-brand-bg w-full min-h-screen flex flex-col">
-        {/* Mobile Viewport: Custom Mobile Layout according to iPhone 14 Pro - 61.svg */}
-        <div className="block md:hidden w-full">
-          <MobileLayout onNavigate={navigateTo} currentPage={currentPage} />
-        </div>
-
-        {/* Desktop Viewport: 100% untouched desktop experience */}
-        <div className="hidden md:flex flex-col w-full">
-          <Navbar currentPage={currentPage} onNavigate={navigateTo} />
-          <Hero />
-          <PromoSection />
-          <UnifiedFeaturesSection />
-          <div className="w-[90%] max-w-[1296px] mx-auto aspect-[1440/93] min-h-[10px] sm:min-h-[14px] pointer-events-none" />
-          <BarberInfoSection />
-          <div className="w-[90%] max-w-[1296px] mx-auto aspect-[1440/93] min-h-[10px] sm:min-h-[14px] pointer-events-none" />
-          <BrandPhilosophySection />
-          <div className="w-[90%] max-w-[1296px] mx-auto aspect-[1440/280] min-h-[29px] sm:min-h-[43px] pointer-events-none" />
-          <HaircraftControlSection />
-          <ExperienceIntroSection />
-          <AppDownloadSection />
-          
-          <footer className="mt-auto relative z-50 w-full py-8 sm:py-12 pb-[max(2rem,env(safe-area-inset-bottom))] bg-[#070A13] border-t border-white/5">
-            <div className="max-w-[1275px] mx-auto px-4 sm:px-[22px] flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6">
-              <p className="text-white/30 text-xs sm:text-sm order-2 sm:order-1 select-none text-center sm:text-left">© 2024 理法 LIVEFOR. All Rights Reserved.</p>
-              <button
-                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-                className="text-white/40 hover:text-white/80 active:text-white text-xs sm:text-sm py-2 px-3 transition-all cursor-pointer order-1 sm:order-2 font-['Noto_Sans_SC'] font-normal"
-              >
-                回到顶部
-              </button>
-            </div>
-          </footer>
-        </div>
+        {isMobile ? (
+          /* 移动端视图：双重满足（视口宽度 < 768px 且 屏幕比例 < 1:1） */
+          <div className="w-full">
+            <MobileLayout onNavigate={navigateTo} currentPage={currentPage} />
+          </div>
+        ) : (
+          /* PC 桌面端视图：单一满足即可（视口宽度 >= 768px 或 屏幕比例 >= 1:1） */
+          <div className="flex flex-col w-full">
+            <Navbar currentPage={currentPage} onNavigate={navigateTo} />
+            <Hero />
+            <PromoSection />
+            <UnifiedFeaturesSection />
+            <div className="w-[90%] max-w-[1296px] mx-auto aspect-[1440/93] min-h-[10px] sm:min-h-[14px] pointer-events-none" />
+            <BarberInfoSection />
+            <div className="w-[90%] max-w-[1296px] mx-auto aspect-[1440/93] min-h-[10px] sm:min-h-[14px] pointer-events-none" />
+            <BrandPhilosophySection />
+            <div className="w-[90%] max-w-[1296px] mx-auto aspect-[1440/280] min-h-[29px] sm:min-h-[43px] pointer-events-none" />
+            <HaircraftControlSection />
+            <ExperienceIntroSection />
+            <AppDownloadSection />
+            
+            <footer className="mt-auto relative z-50 w-full py-8 sm:py-12 pb-[max(2rem,env(safe-area-inset-bottom))] bg-[#070A13] border-t border-white/5">
+              <div className="max-w-[1275px] mx-auto px-4 sm:px-[22px] flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6">
+                <p className="text-white/30 text-xs sm:text-sm order-2 sm:order-1 select-none text-center sm:text-left">© 2024 理法 LIVEFOR. All Rights Reserved.</p>
+                <button
+                  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                  className="text-white/40 hover:text-white/80 active:text-white text-xs sm:text-sm py-2 px-3 transition-all cursor-pointer order-1 sm:order-2 font-['Noto_Sans_SC'] font-normal"
+                >
+                  回到顶部
+                </button>
+              </div>
+            </footer>
+          </div>
+        )}
       </main>
     </GridHoverProvider>
   );

@@ -613,7 +613,7 @@ export const MobileFeaturesSection: React.FC = () => {
         {/* Placed cleanly on top of the blurred cover (z-30)         */}
         {/* ========================================================= */}
         <div className="absolute bottom-0 inset-x-0 w-full flex flex-col items-center justify-end pb-4 xs:pb-6 px-4 z-30 pointer-events-auto">
-          <div className="w-full max-w-[430px] flex flex-col items-center">
+          <div className="w-full max-w-[540px] flex flex-col items-center">
             
             {/* Text Description Container (Crossfades across 4 stages) */}
             <div className="relative w-full h-[68px] xs:h-[72px] flex items-center justify-center mb-12 xs:mb-14">

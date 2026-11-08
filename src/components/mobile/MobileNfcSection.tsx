@@ -25,7 +25,7 @@ export const MobileNfcSection: React.FC = () => {
       ref={sectionRef}
       className="relative w-full flex flex-col items-center select-none bg-[#f9f9f9] overflow-hidden pt-16 xs:pt-20 pb-12 xs:pb-16"
     >
-      <div className="w-full max-w-[430px] overflow-hidden">
+      <div className="w-full max-w-[500px] sm:max-w-[540px] px-2 xs:px-4 mx-auto overflow-hidden">
         <svg
           key={`mobile-nfc-svg-${animCycle}`}
           viewBox="0 3080 393 558"

@@ -170,7 +170,7 @@ export const MobileAiRecommendationSection: React.FC<MobileAiRecommendationSecti
       ref={sectionRef}
       className="relative w-full flex flex-col items-center select-none bg-[#f9f9f9] pt-12 xs:pt-16"
     >
-      <div ref={firstDivRef} className="w-full max-w-[430px] overflow-hidden">
+      <div ref={firstDivRef} className="w-full max-w-[500px] sm:max-w-[540px] px-2 xs:px-4 mx-auto overflow-hidden">
         <svg
           viewBox="0 3637.5 393 496"
           className="w-full h-auto block select-none overflow-hidden"
@@ -309,7 +309,7 @@ export const MobileAiRecommendationSection: React.FC<MobileAiRecommendationSecti
       {/* 滚轮驱动轨道容器：整段固定在视口中央，样机进入与文字渐隐完全随滚轮滚动进行 */}
       <div
         ref={scrollTrackRef}
-        className="relative w-full max-w-[430px] h-[260vh] mt-16 xs:mt-24"
+        className="relative w-full max-w-[500px] sm:max-w-[540px] px-2 xs:px-4 mx-auto h-[260vh] mt-16 xs:mt-24"
       >
         {/* 粘性吸附单屏：严密固定在视口正中央 */}
         <div ref={stickyScreenRef} className="sticky top-0 w-full h-[100dvh] min-h-[100dvh] flex flex-col items-center justify-center text-center px-4 overflow-hidden select-none bg-[#f9f9f9]">
@@ -328,7 +328,7 @@ export const MobileAiRecommendationSection: React.FC<MobileAiRecommendationSecti
             >
               <h2
                 ref={textRef}
-                className="text-[36px] xs:text-[38px] leading-[1.38] tracking-[0.07em] text-[#292929] text-center font-bold select-none whitespace-nowrap"
+                className="text-[clamp(28px,8vw,38px)] leading-[1.38] tracking-[0.07em] text-[#292929] text-center font-bold select-none whitespace-nowrap"
                 style={{
                   fontFamily:
                     "FZYAYH-GB18030L2-B, FZYaYiHei GB18030L2, PingFang SC, Microsoft YaHei, sans-serif",

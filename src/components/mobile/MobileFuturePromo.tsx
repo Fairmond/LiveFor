@@ -68,14 +68,14 @@ export const MobileFuturePromo: React.FC = () => {
     <section 
       ref={sectionRef}
       id="mobile-promo-section"
-      className="relative z-30 w-full max-w-[430px] bg-[#f9f9f9] pt-8 xs:pt-10 pb-8 xs:pb-10 px-6 flex flex-col items-center text-center select-none"
+      className="relative z-30 w-full max-w-[540px] bg-[#f9f9f9] pt-8 xs:pt-10 pb-8 xs:pb-10 px-5 sm:px-6 flex flex-col items-center text-center select-none"
     >
       <motion.h2
         id="mobile-promo-title"
         initial="idle"
         animate={animState}
         variants={titleVariants}
-        className="text-[#2e2e2e] text-[26px] xs:text-[28px] font-extrabold tracking-[0.018em] font-title"
+        className="text-[#2e2e2e] text-[clamp(22px,6.5vw,28px)] font-extrabold tracking-[0.018em] font-title leading-tight"
       >
         触手可及的未来
       </motion.h2>
@@ -83,7 +83,7 @@ export const MobileFuturePromo: React.FC = () => {
         initial="idle"
         animate={animState}
         variants={descVariants}
-        className="text-[#2e2e2e] text-[15px] sm:text-[16px] leading-[1.65] mt-3.5 font-brand max-w-[340px] tracking-[0.005em] flex flex-col items-center"
+        className="text-[#2e2e2e] text-[clamp(13px,3.8vw,16px)] leading-[1.65] mt-3.5 font-brand max-w-[420px] tracking-[0.005em] flex flex-col items-center px-2"
       >
         <p>无论你身处何地都能精准对接最适合你的发型方案，</p>
         <p>让一切改变都充满期待。</p>

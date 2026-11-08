@@ -87,10 +87,16 @@ export const MobileLayout: React.FC<{
   }, []);
 
   const containerWidth = viewportWidth || 393;
-  // 动态计算 SVG viewBox 高度，确保纵横比与窗口完全等比贴合无缝隙
-  const viewBoxHeight = Math.max(680, Math.round((393 * viewportHeight) / containerWidth));
-  // 窗口变长时的垂直微调，使内容在首屏保持优美留白与呼吸感
-  const contentYOffset = Math.max(0, (viewBoxHeight - 700) * 0.3);
+  const aspect = containerWidth / Math.max(1, viewportHeight);
+  // 当视口纵向比例适中或较长 (aspect <= 393/740) 时，以 393 为基准宽度动态扩展 viewBoxHeight
+  // 当视口较宽或较矮 (aspect > 393/740) 时，以 740 为安全基准高度动态扩展 viewBoxWidth，防止按钮文字被裁切
+  const isTall = aspect <= (393 / 740);
+  const viewBoxWidth = isTall ? 393 : Math.round(740 * aspect);
+  const viewBoxHeight = isTall ? Math.round(393 / aspect) : 740;
+
+  // 居中偏移量：当屏幕较宽时水平对称居中，当屏幕变长时垂直优雅留白
+  const contentXOffset = Math.max(0, (viewBoxWidth - 393) / 2);
+  const contentYOffset = Math.max(0, (viewBoxHeight - 700) * 0.28);
 
   // 3. 底部动态过渡光斑：
   // - 取消防误触死区，滚动开始 (0px) 即刻实时响应
@@ -198,7 +204,7 @@ export const MobileLayout: React.FC<{
         <svg
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
-          viewBox={`0 0 393 ${viewBoxHeight}`}
+          viewBox={`0 0 ${viewBoxWidth} ${viewBoxHeight}`}
           className="relative z-10 w-full h-full block"
           style={{ overflow: 'visible' }}
         >
@@ -214,13 +220,13 @@ export const MobileLayout: React.FC<{
               <image width="2800" height="544" href="/capsule.png" xlinkHref="/capsule.png" />
             </pattern>
             <clipPath id="clip_iphone_14_pro_63">
-              <rect width="393" height={viewBoxHeight} />
+              <rect width={viewBoxWidth} height={viewBoxHeight} />
             </clipPath>
           </defs>
 
           <g id="iPhone_14_Pro_63" clipPath="url(#clip_iphone_14_pro_63)">
             {/* Title & Subtitle Group (组_120) */}
-            <g id="组_120" transform={`translate(-523 ${28 + contentYOffset})`}>
+            <g id="组_120" transform={`translate(${-523 + contentXOffset} ${28 + contentYOffset})`}>
               {/* 主标题：立刻，预见未来的自己 (严格保持 72px / 48px 与白色发光滤镜) */}
               <g transform="matrix(1, 0, 0, 1, 523, -28)" filter="url(#m_hero_title_glow)">
                 <text 
@@ -259,7 +265,7 @@ export const MobileLayout: React.FC<{
               id="改变按钮" 
               className="cursor-pointer transition-all duration-150 active:scale-95 active:opacity-85"
               style={{
-                transformOrigin: `${197}px ${544.5 + contentYOffset}px`,
+                transformOrigin: `${197 + contentXOffset}px ${544.5 + contentYOffset}px`,
               }}
               onClick={() => {
                 const titleEl = document.getElementById('mobile-promo-title') || document.querySelector('#mobile-promo-section h2');
@@ -290,7 +296,7 @@ export const MobileLayout: React.FC<{
             >
               <rect 
                 id="Liquid_Glass_Capsule" 
-                x={60}
+                x={60 + contentXOffset}
                 y={518 + contentYOffset}
                 width="274" 
                 height="53" 

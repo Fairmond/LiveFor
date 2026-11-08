@@ -4,21 +4,21 @@ import { ArrowRight } from "lucide-react";
 
 export const MobileMagazineSection: React.FC = () => {
   return (
-    <section className="relative w-full bg-[#f2f2f2] py-20 xs:py-28 px-6 flex flex-col items-center select-none overflow-hidden my-12 xs:my-16">
-      <div className="w-full max-w-[390px] flex flex-col">
+    <section className="relative w-full bg-[#f2f2f2] py-16 xs:py-24 px-5 sm:px-6 flex flex-col items-center select-none overflow-hidden my-12 xs:my-16">
+      <div className="w-full max-w-[460px] flex flex-col">
         {/* Title */}
         <motion.h2
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, amount: 0.25 }}
           transition={{ duration: 0.65, ease: [0.16, 1, 0.3, 1] }}
-          className="text-[#1e1e1e] text-[31px] sm:text-[33px] font-bold tracking-[0.01em] font-['Noto_Sans_SC',sans-serif] leading-[1.25]"
+          className="text-[#1e1e1e] text-[clamp(24px,7.5vw,32px)] font-bold tracking-[0.01em] font-['Noto_Sans_SC',sans-serif] leading-[1.25]"
         >
           不止时尚，更有态度。
         </motion.h2>
 
         {/* Subtitle */}
-        <div className="mt-3.5 space-y-1 text-[#78787c] text-[14.5px] sm:text-[15px] leading-[1.6] font-normal tracking-[0.01em]">
+        <div className="mt-3.5 space-y-1 text-[#78787c] text-[clamp(13px,3.8vw,15px)] leading-[1.6] font-normal tracking-[0.01em]">
           <motion.p
             initial={{ opacity: 0, x: 40 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -38,7 +38,7 @@ export const MobileMagazineSection: React.FC = () => {
         </div>
 
         {/* 3 Cascading Diagonal Magazine Covers (As shown in 组 186.png) - Slide in from right to left */}
-        <div className="relative w-full h-[455px] sm:h-[475px] mt-8 overflow-visible">
+        <div className="relative w-full h-[clamp(430px,118vw,485px)] mt-8 overflow-visible">
           {/* Card 1: Top-Left (茶灰色 x 贴面烫发) */}
           <motion.div
             initial={{ opacity: 0, x: 80 }}
