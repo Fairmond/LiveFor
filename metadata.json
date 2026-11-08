@@ -1,5 +1,5 @@
 {
-  "name": "理法 LIVEFOR",
+  "name": "理法LIVEFOR",
   "description": "理法 LIVEFOR - 你的可视化理发指南。通过专业的可视化技术，让理发体验变得可控、便捷、高效。",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
