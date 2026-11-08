@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="393" height="700" viewBox="0 0 393 700">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1912 1080">
+      <image width="1912" height="1080" xlink:href="iPhone%2014%20Pro%20-%2063-image.jpg"/>
+    </pattern>
+    <filter id="立刻_预见未来的自己" x="9" y="152" width="375" height="197" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.722"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <pattern id="pattern-2" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 2800 544">
+      <image width="2800" height="544" xlink:href="../Downloads/Liquid%20Glass%20Selector%20-%20Copy%20-%20Copy-Frame@4x%20(1).png"/>
+    </pattern>
+    <clipPath id="clip-iPhone_14_Pro_63">
+      <rect width="393" height="700"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_14_Pro_63" data-name="iPhone 14 Pro – 63" clip-path="url(#clip-iPhone_14_Pro_63)">
+    <rect width="393" height="700" fill="#f9f9f9"/>
+    <rect id="hf_20260306_074215_04640ca7-042c-45d6-bb56-58b1e8a42489" width="1243.148" height="702" transform="translate(-425.074)" fill="url(#pattern)"/>
+    <g id="标签栏" transform="translate(-54.999 -2)">
+      <rect id="矩形_425" data-name="矩形 425" width="369" height="54.195" rx="18" transform="translate(67 21.097)" fill="#0a0d12"/>
+      <g id="组_113" data-name="组 113" transform="translate(80 25.195)">
+        <image id="logo白红_矫正_" data-name="logo白红（矫正）" width="26" height="26" transform="translate(5 10)" xlink:href="%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/logo%E7%99%BD%E7%BA%A2%EF%BC%88%E7%9F%AB%E6%AD%A3%EF%BC%89.png"/>
+        <text id="Livefor" transform="translate(63 14.5)" fill="#ebebeb" font-size="15" font-family="FZYooncheQWHS-M--GB1-0, FZYooncheQWHS" letter-spacing="0.006em"><tspan x="0" y="14">LIVEFOR</tspan></text>
+        <text id="理法" transform="translate(33 14.5)" fill="#ebebeb" font-size="15" font-family="FZYooncheQWHS-M--GB1-0, FZYooncheQWHS" letter-spacing="0.04em"><tspan x="0" y="14">理法</tspan></text>
+      </g>
+    </g>
+    <g id="组_183" data-name="组 183" transform="translate(193.328 -101)">
+      <line id="直线_147" data-name="直线 147" x2="14.145" transform="translate(155.363 147.195)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="直线_149" data-name="直线 149" x2="14.145" transform="translate(155.363 153.195)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="直线_148" data-name="直线 148" x2="14.145" transform="translate(155.363 141.195)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+    </g>
+    <g id="组_120" data-name="组 120" transform="translate(-523 28)">
+      <g transform="matrix(1, 0, 0, 1, 523, -28)" filter="url(#立刻_预见未来的自己)">
+        <text id="立刻_预见未来的自己-2" data-name="立刻，
+预见未来的自己" transform="translate(27 243)" fill="#fff" font-size="72" font-family="FZYAYH-GB18030L2-B, FZYaYiHei GB18030L2" letter-spacing="0.01em"><tspan x="0" y="0">立刻</tspan><tspan y="0" font-size="48">，</tspan><tspan font-size="48"><tspan x="0" y="72">预见未来的自己</tspan></tspan></text>
+      </g>
+      <text id="通过可视化理发指南_帮你的理发体验变的_可控_便捷_高效_真正掌控自己的发型_" data-name="通过可视化理发指南，帮你的理发体验变的 可控、便捷、高效。真正掌控自己的发型。" transform="translate(550 360)" fill="#b3b3b3" font-size="16" font-family="SourceHanSansCN-Normal, Source Han Sans CN" letter-spacing="0.008em"><tspan x="0" y="19">通过可视化理发指南，帮你的理发体</tspan><tspan x="0" y="43">验变的 可控、便捷、高效。真正掌控</tspan><tspan x="0" y="67">自己的发型。</tspan></text>
+    </g>
+    <g id="改变按钮" transform="translate(-494 45.613)">
+      <rect id="Liquid_Glass_Selector_-_Copy_-_Copy-Frame_4x_1_" data-name="Liquid Glass Selector - Copy - Copy-Frame@4x (1)" width="274" height="53" transform="translate(554 472.387)" fill="url(#pattern-2)"/>
+    </g>
+  </g>
+</svg>

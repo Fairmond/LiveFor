@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="699" viewBox="0 0 1440 699">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f2f2f2;
+      }
+
+      .cls-2 {
+        fill: url(#pattern);
+      }
+
+      .cls-3 {
+        fill: url(#pattern-2);
+      }
+
+      .cls-4, .cls-8 {
+        fill: #292929;
+      }
+
+      .cls-4 {
+        font-size: 40px;
+        font-family: SourceHanSansCN-Bold, Source Han Sans CN;
+        font-weight: 700;
+      }
+
+      .cls-4, .cls-5, .cls-8 {
+        letter-spacing: 0.04em;
+      }
+
+      .cls-5 {
+        fill: #8f8f8f;
+        font-family: SourceHanSansCN-Regular, Source Han Sans CN;
+      }
+
+      .cls-5, .cls-8 {
+        font-size: 24px;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        fill: #fafafa;
+      }
+
+      .cls-8 {
+        font-family: SourceHanSansCN-Medium, Source Han Sans CN;
+        font-weight: 500;
+      }
+
+      .cls-9 {
+        fill: none;
+        stroke: #292929;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-10 {
+        filter: url(#矩形_462);
+      }
+
+      .cls-11 {
+        filter: url(#阳光温柔体积);
+      }
+
+      .cls-12 {
+        filter: url(#如风自由体积);
+      }
+
+      .cls-13 {
+        filter: url(#使用工具生成图片_4_);
+        mix-blend-mode: hard-light;
+        isolation: isolate;
+      }
+    </style>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 892 1260">
+      <image width="892" height="1260" xlink:href="%E4%BD%BF%E7%94%A8%E5%B7%A5%E5%85%B7%E7%94%9F%E6%88%90%E5%9B%BE%E7%89%87%20(4).png"/>
+    </pattern>
+    <filter id="使用工具生成图片_4_" x="151" y="226" width="343" height="473" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="如风自由体积" x="550" y="226" width="348" height="473" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <pattern id="pattern-2" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 909 1276">
+      <image width="909" height="1276" xlink:href="%E9%98%B3%E5%85%89%E6%B8%A9%E6%9F%94%E4%BD%93%E7%A7%AF.png"/>
+    </pattern>
+    <filter id="阳光温柔体积" x="950" y="226" width="346" height="473" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="矩形_462" x="1077" y="104" width="232" height="88" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-4"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="组_150" data-name="组 150" transform="translate(2 -3248)">
+    <rect id="矩形_461" data-name="矩形 461" class="cls-1" width="1440" height="615" transform="translate(-2 3248)"/>
+    <g id="组_147" data-name="组 147" transform="translate(-8 96)">
+      <g id="贴面烫发" transform="translate(12 17)">
+        <g class="cls-13" transform="matrix(1, 0, 0, 1, -6, 3135)">
+          <rect id="使用工具生成图片_4_2" data-name="使用工具生成图片 (4)" class="cls-2" width="313" height="443" transform="translate(164 238)"/>
+        </g>
+        <image id="使用工具生成图片_4_3" data-name="使用工具生成图片 (4)" width="314" height="443" transform="translate(156 3373)" xlink:href="%E4%BD%BF%E7%94%A8%E5%B7%A5%E5%85%B7%E7%94%9F%E6%88%90%E5%9B%BE%E7%89%87%20(4).png"/>
+      </g>
+    </g>
+    <g id="组_148" data-name="组 148" transform="translate(2 96)">
+      <g id="如风自由" transform="translate(10 14.072)">
+        <g class="cls-12" transform="matrix(1, 0, 0, 1, -14, 3137.93)">
+          <image id="如风自由体积-2" data-name="如风自由体积" width="318" height="443" transform="translate(563 238)" xlink:href="%E5%A6%82%E9%A3%8E%E8%87%AA%E7%94%B1.png"/>
+        </g>
+        <image id="如风自由-2" data-name="如风自由" width="315" height="444" transform="translate(546 3372.928)" xlink:href="%E7%BB%84%20150-image.png"/>
+      </g>
+    </g>
+    <g id="组_149" data-name="组 149" transform="translate(12 96)">
+      <g id="阳光温柔" transform="translate(12 17.014)">
+        <g class="cls-11" transform="matrix(1, 0, 0, 1, -26, 3134.99)">
+          <rect id="阳光温柔体积-2" data-name="阳光温柔体积" class="cls-3" width="316" height="443" transform="translate(963 238)"/>
+        </g>
+        <image id="阳光温柔-2" data-name="阳光温柔" width="316" height="443" transform="translate(934 3372.986)" xlink:href="%E4%B8%80%E5%BC%A0%E9%AB%98%E7%AB%AF_A4_%E6%9D%82%E5%BF%97%E7%9A%84%E4%B8%93%E4%B8%9A%E4%BF%AF%E8%A7%86%E6%AD%A3%E4%BA%A4%EF%BC%88top-down_orthographic%EF%BC%89%E4%BA%A7%E5%93%81%E6%91%84%E5%BD%B1%E5%9B%BE%EF%BC%8C%E6%9D%82%E5%BF%97%E5%A4%84%E4%BA%8E%E9%97%AD%E5%90%88%E7%8A%B6%E6%80%81%EF%BC%8C%E5%AE%8C%E7%BE%8E%E5%B1%85%E4%B8%AD%E6%94%BE%E7%BD%AE%E5%9C%A8%E6%97%A0%E7%BC%9D%E7%9A%84%E7%99%BD%E8%89%B2%E5%85%A8%E6%99%AF%E6%91%84%E5%BD%B1%E6%A3%9A%E8%83%8C%E6%99%AF%E4%B8%8A%E3%80%82%E7%A1%AE%E4%BF%9D%E5%8F%82%E8%80%83%E5%9B%BE%E4%B8%AD%E5%B7%B2%E6%9C%89%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%BF%9D%E8%AF%81%E5%92%8C%E5%8F%82%E8%80%83%E5%9B%BE%E5%AE%8C%E5%85%A8%E4%B8%80%E8%87%B4%EF%BC%8C%E5%8F%AF%E4%BB%A5%E9%80%82%E5%BD%93%E5%86%8D%E7%A9%BA%E7%99%BD%E5%A4%84%E6%B7%BB%E5%8A%A0%E4%B8%80%E4%BA%9B%E6%9D%82%E5%BF%97%E5%B0%81%E9%9D%A2%E7%9A%84%E8%A7%86%E8%A7%89%E5%85%83%E7%B4%A0%E5%A6%82%E6%9D%A1%E5%BD%A2%E7%A0%81%E7%AD%89%E3%80%82%E6%9D%82%E5%BF%97%E4%BD%BF%E7%94%A8%E7%BB%8F%E5%85%B8%E7%9A%84%E9%AA%91%E9%A9%AC%E8%AE%A2%EF%BC%8C%E8%AE%A9%E6%9D%82%E5%BF%97%E4%BD%93%E5%B7%A6%E4%BE%A7%E8%BE%B9%E7%9C%8B%E4%B8%8A%E5%8E%BB%E6%98%AF%E5%BC%A7%E5%BD%A2%EF%BC%8C%E7%BB%9D%E5%AF%B9%E4%B8%8D%E8%A6%81%E5%87%BA%E7%8E%B0%E5%8E%8B%E7%97%95%E7%BA%BF%EF%BC%81_%E8%89%B2%E5%BD%A9%E4%B8%8E%E4%BF%9D%E7%9C%9F%E5%BA%A6%EF%BC%88%E6%A0%B8%E5%BF%83%E8%A6%81%E6%B1%82%EF%BC%89%EF%BC%9A_202605300237.png"/>
+      </g>
+    </g>
+    <g id="标题组" transform="translate(-4 902)">
+      <text id="不止时尚_更有态度_" data-name="不止时尚，更有态度。" class="cls-4" transform="translate(151 2387)"><tspan x="0" y="46">不止时尚，更有态度。</tspan></text>
+      <text id="为用户即使推送最新_最热的造型发型设计_掌握潮流趋势_更让自己的风格_态度有的放矢_" data-name="为用户即使推送最新、最热的造型发型设计。掌握潮流趋势，更让自己的风格、态度有的放矢。" class="cls-5" transform="translate(151 2450)"><tspan x="0" y="28">为用户即使推送最新、最热的造型发型设计。掌</tspan><tspan x="0" y="68">握潮流趋势，更让自己的风格、态度有的放矢。</tspan></text>
+    </g>
+    <g id="跳转组" transform="translate(52 24.641)">
+      <g class="cls-10" transform="matrix(1, 0, 0, 1, -54, 3223.36)">
+        <rect id="矩形_462-2" data-name="矩形 462" class="cls-6" width="202" height="58" rx="15" transform="translate(1092 116)"/>
+      </g>
+      <rect id="矩形_463" data-name="矩形 463" class="cls-7" width="200" height="56" rx="15" transform="translate(1039 3341.359)"/>
+      <text id="更多推荐" class="cls-8" transform="translate(1069.791 3379.267)"><tspan x="0" y="0">更多推荐</tspan></text>
+      <g id="_6906744bc45e42ad5fe6cd95_arrow_header" data-name="6906744bc45e42ad5fe6cd95_arrow_header" transform="translate(1220.209 3377.872) rotate(180)">
+        <path id="路径_143" data-name="路径 143" class="cls-9" d="M7.461,14.92,0,7.46,7.461,0"/>
+        <path id="路径_144" data-name="路径 144" class="cls-9" d="M14.878,0H0" transform="translate(0.001 7.46)"/>
+      </g>
+    </g>
+  </g>
+</svg>

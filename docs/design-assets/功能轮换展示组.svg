@@ -1,0 +1,330 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="700" height="700" viewBox="0 0 700 700">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="矩形_457" data-name="矩形 457" width="700" height="700" transform="translate(740 2164)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="底" x="613.307" y="41.733" width="112.672" height="211.862" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="体积" x="119.114" y="41" width="495.767" height="211.862" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur-2"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#eaecf0"/>
+      <stop offset="0.088" stop-color="#e3e4e6" stop-opacity="0.2"/>
+      <stop offset="0.206" stop-color="#d7d8da" stop-opacity="0.251"/>
+      <stop offset="0.337" stop-color="#616262" stop-opacity="0.769"/>
+      <stop offset="0.491" stop-color="#464646" stop-opacity="0.89"/>
+      <stop offset="1" stop-color="#2d2d2d"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.5" cy="0.5" r="0.5" gradientTransform="translate(0 -0.18) scale(1 1.36)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b70f00"/>
+      <stop offset="1" stop-color="#e46054"/>
+    </radialGradient>
+    <filter id="底红" x="457.759" y="142.74" width="109.64" height="82.391" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-3"/>
+      <feFlood flood-color="#a30d00" flood-opacity="0.761"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="圆心" x="461.089" y="97.506" width="102.469" height="102.469" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-color="#fff" flood-opacity="0.322"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="圆心-2" x="461.089" y="97.506" width="102.469" height="102.469" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-5"/>
+      <feFlood flood-color="#8b8b8b" flood-opacity="0.302" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-5"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="S" x="490.552" y="102.352" width="40" height="81" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-6"/>
+      <feFlood flood-color="#740a00" flood-opacity="0.541"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="体积-2" x="-31.817" y="252.013" width="250.904" height="205.893" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur-7"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 936 1496">
+      <image width="936" height="1496" xlink:href="C:/Users/Fairmond/Desktop/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9Camera_1040g3k031i9tnek8nc0g5nkd1eo082p6dq5v7n8.jpg"/>
+    </pattern>
+    <filter id="体积-3" x="466.429" y="252.475" width="250.904" height="206.044" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur-8"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="路径_204">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-9"/>
+      <feFlood flood-opacity="0.02" result="color-2"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-9"/>
+      <feComposite operator="in" in="color-2"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path-2">
+      <path id="多边形_18" data-name="多边形 18" d="M33.034,109.895c18.671-42.205,78.562-42.205,97.234,0h0c15.548,35.146-10.185,74.67-48.617,74.67h0c-38.432,0-64.165-39.524-48.617-74.67Z" transform="translate(163.301 184.564) rotate(180)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1.949" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c03023"/>
+      <stop offset="1" stop-color="#d06a62"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b70f00"/>
+      <stop offset="0.606" stop-color="#d16e66"/>
+      <stop offset="0.807" stop-color="#da8f89"/>
+      <stop offset="1" stop-color="#eed7d7"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.511" y1="1" x2="0.513" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffedeb"/>
+      <stop offset="0.489" stop-color="#fdfdfd"/>
+      <stop offset="0.793" stop-color="#fbfbfb"/>
+      <stop offset="1" stop-color="#f5f5f5"/>
+    </linearGradient>
+    <filter id="椭圆_313" x="572.519" y="271.574" width="125.947" height="125.559" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-10"/>
+      <feFlood flood-color="#ff5849" flood-opacity="0.541"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="体积-4" x="199.305" y="234.013" width="286.904" height="241.893" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-11"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <pattern id="pattern-2" width="1" height="1" viewBox="78.948 4.563 41.658 53.813">
+      <image preserveAspectRatio="none" width="138.086" height="105.685" xlink:href="C:/Users/Fairmond/Desktop/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/shorthairrrrrrr.jpg"/>
+    </pattern>
+    <filter id="体积-5" x="156.82" y="453.138" width="494.301" height="211.862" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur-12"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-12"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient-3" cx="0.544" cy="0.333" r="0.457" gradientTransform="translate(0 -0.028) scale(1 1.084)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b80c00"/>
+      <stop offset="1" stop-color="#e35e54"/>
+    </radialGradient>
+    <filter id="红" x="543.46" y="486.902" width="62.379" height="88.45" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-13"/>
+      <feFlood flood-color="#a30e00" flood-opacity="0.761"/>
+      <feComposite operator="in" in2="blur-13"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient-4" cx="0.499" cy="0.337" r="0.457" gradientTransform="translate(0 -0.028) scale(1 1.084)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b88700"/>
+      <stop offset="1" stop-color="#e3bd54"/>
+    </radialGradient>
+    <filter id="黄" x="489.898" y="462.958" width="105.731" height="104.749" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-14"/>
+      <feFlood flood-color="#a37800" flood-opacity="0.761"/>
+      <feComposite operator="in" in2="blur-14"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient-5" cx="0.522" cy="0.455" r="0.48" gradientTransform="translate(0 -0.305) scale(1 1.61)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#25b851"/>
+      <stop offset="1" stop-color="#54e37f"/>
+    </radialGradient>
+    <filter id="绿" x="473.217" y="510.164" width="82.391" height="127.932" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-15"/>
+      <feFlood flood-color="#00a331" flood-opacity="0.761"/>
+      <feComposite operator="in" in2="blur-15"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="圆心体积">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-16"/>
+      <feFlood flood-opacity="0.161" result="color-3"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-16"/>
+      <feComposite operator="in" in="color-3"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="功能轮换展示组" transform="translate(-740 -2164)" clip-path="url(#clip-path)">
+    <g id="功能展示组" transform="translate(179.326 -840.385)">
+      <g id="能力评级_装饰_" data-name="能力评级（装饰）" transform="translate(1185.98 3058.118)">
+        <g transform="matrix(1, 0, 0, 1, -625.31, -53.73)" filter="url(#底)">
+          <rect id="底-2" data-name="底" width="88.672" height="187.862" rx="16" transform="translate(625.31 53.73)" fill="#fff"/>
+        </g>
+        <path id="底-3" data-name="底" d="M16,0H88.672V185.27H16a16,16,0,0,1-16-16V16A16,16,0,0,1,16,0Z" transform="translate(0 1.943)" fill="#f5f5f5"/>
+        <text id="季度数据" transform="translate(23.321 32.195)" fill="#999" font-size="14" font-family="SourceHanSansCN-Medium, Source Han Sans CN" font-weight="500"><tspan x="0" y="0">季度数据</tspan></text>
+        <g id="分类评级" transform="translate(23.321 97.818)">
+          <g id="组_141" data-name="组 141" transform="translate(0)">
+            <text id="总单数" transform="translate(1.581 61.641)" fill="#999" font-size="13" font-family="SourceHanSansCN-Regular, Source Han Sans CN" letter-spacing="0.04em"><tspan x="0" y="0">总单数</tspan></text>
+            <text id="_282" data-name="282" transform="translate(0 29)" fill="#333" font-size="25" font-family="SourceHanSansCN-Bold, Source Han Sans CN" font-weight="700" letter-spacing="0.04em"><tspan x="0" y="0">282</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g id="综合能力评价" transform="translate(691.788 3057.385)" opacity="0.5">
+        <g transform="matrix(1, 0, 0, 1, -131.11, -53)" filter="url(#体积)">
+          <rect id="体积-6" data-name="体积" width="471.767" height="187.862" rx="16" transform="translate(131.11 53)" fill="#fff" opacity="0.8"/>
+        </g>
+        <g id="总评级" transform="translate(310.818 25.349)">
+          <path id="底-4" data-name="底" d="M70.391,0A70.391,70.391,0,1,1,0,70.391,70.391,70.391,0,0,1,70.391,0Z" transform="translate(0 0)" fill="#fff"/>
+          <path id="指示黑条" d="M70.391,28.156a42.235,42.235,0,1,0,42.235,42.235A42.282,42.282,0,0,0,70.391,28.156M70.391,0A70.391,70.391,0,1,1,0,70.391,70.391,70.391,0,0,1,70.391,0Z" transform="translate(0 0)" fill="url(#radial-gradient)"/>
+          <g transform="matrix(1, 0, 0, 1, -441.93, -78.35)" filter="url(#底红)">
+            <path id="底红-2" data-name="底红" d="M105.392,75.532C93.644,87.381,75.915,95.391,56.317,95.391A69.48,69.48,0,0,1,19.757,85.164,68.347,68.347,0,0,1,7.752,76.032L56.317,25Z" transform="translate(456.01 123.74)" fill="url(#radial-gradient-2)"/>
+          </g>
+          <g data-type="innerShadowGroup">
+            <g transform="matrix(1, 0, 0, 1, -441.93, -78.35)" filter="url(#圆心)">
+              <path id="圆心-3" data-name="圆心" d="M42.235,0A42.235,42.235,0,1,1,0,42.235,42.235,42.235,0,0,1,42.235,0Z" transform="translate(470.09 106.51)" fill="#fff"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, -441.93, -78.35)" filter="url(#圆心-2)">
+              <path id="圆心-4" data-name="圆心" d="M42.235,0A42.235,42.235,0,1,1,0,42.235,42.235,42.235,0,0,1,42.235,0Z" transform="translate(470.09 106.51)" fill="#fff"/>
+            </g>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -441.93, -78.35)" filter="url(#S)">
+            <text id="S-2" data-name="S" transform="translate(495.05 164.85)" fill="#b70f00" font-size="50" font-family="SourceHanSansCN-Medium, Source Han Sans CN" font-weight="500" letter-spacing="0.04em"><tspan x="0" y="0">S</tspan></text>
+          </g>
+        </g>
+        <text id="综合能力评级" transform="translate(24.053 32.928)" fill="#999" font-size="14" font-family="SourceHanSansCN-Medium, Source Han Sans CN" font-weight="500"><tspan x="0" y="0">综合能力评级</tspan></text>
+        <g id="分类评级-2" data-name="分类评级" transform="translate(29.236 98.55)">
+          <g id="技术">
+            <text id="技术-2" data-name="技术" transform="translate(0 60.641)" fill="#999" font-size="12" font-family="SourceHanSansCN-Regular, Source Han Sans CN" letter-spacing="0.04em"><tspan x="0" y="0">技术</tspan></text>
+            <text id="A" transform="translate(6.479 28)" fill="#333" font-size="24" font-family="SourceHanSansCN-Bold, Source Han Sans CN" font-weight="700" letter-spacing="0.04em"><tspan x="0" y="0">A</tspan></text>
+          </g>
+          <g id="理解" transform="translate(69.962)">
+            <text id="理解-2" data-name="理解" transform="translate(0 60.641)" fill="#999" font-size="12" font-family="SourceHanSansCN-Regular, Source Han Sans CN" letter-spacing="0.04em"><tspan x="0" y="0">理解</tspan></text>
+            <text id="B" transform="translate(6.479 28)" fill="#333" font-size="24" font-family="SourceHanSansCN-Bold, Source Han Sans CN" font-weight="700" letter-spacing="0.04em"><tspan x="0" y="0">B</tspan></text>
+          </g>
+          <g id="审美" transform="translate(137.334)">
+            <text id="审美-2" data-name="审美" transform="translate(0 60.641)" fill="#999" font-size="12" font-family="SourceHanSansCN-Regular, Source Han Sans CN" letter-spacing="0.04em"><tspan x="0" y="0">审美</tspan></text>
+            <text id="S-3" data-name="S" transform="translate(6.477 28)" fill="#333" font-size="24" font-family="SourceHanSansCN-Bold, Source Han Sans CN" font-weight="700" letter-spacing="0.04em"><tspan x="0" y="0">S</tspan></text>
+          </g>
+          <g id="沟通" transform="translate(206)">
+            <text id="沟通-2" data-name="沟通" transform="translate(0 60.641)" fill="#999" font-size="12" font-family="SourceHanSansCN-Regular, Source Han Sans CN" letter-spacing="0.04em"><tspan x="0" y="0">沟通</tspan></text>
+            <text id="S-4" data-name="S" transform="translate(6.479 28)" fill="#333" font-size="24" font-family="SourceHanSansCN-Bold, Source Han Sans CN" font-weight="700" letter-spacing="0.04em"><tspan x="0" y="0">S</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g id="猜你想看" transform="translate(540.857 3268.399)" opacity="0.5">
+        <g transform="matrix(1, 0, 0, 1, 19.82, -264.01)" filter="url(#体积-2)">
+          <path id="体积-7" data-name="体积" d="M16,0H210.9a16,16,0,0,1,16,16V163.893a18,18,0,0,1-18,18H18a18,18,0,0,1-18-18V16A16,16,0,0,1,16,0Z" transform="translate(-19.82 264.01)" fill="#fff"/>
+        </g>
+        <rect id="卡底" width="225.259" height="179.966" rx="16" transform="translate(0.991 1.927)" fill="#f5f5f5"/>
+        <text id="猜你想看-2" data-name="猜你想看" transform="translate(16.089 29.918)" fill="#a8a8a8" font-size="14" font-family="SourceHanSansCN-Medium, Source Han Sans CN" font-weight="500"><tspan x="0" y="0">猜你想看</tspan></text>
+        <text id="纹理四六分" transform="translate(77.084 159.967)" fill="#a8a8a8" font-size="13" font-family="SourceHanSansCN-Regular, Source Han Sans CN" letter-spacing="0.04em"><tspan x="0" y="0">纹理四六分</tspan></text>
+        <text id="NO.7" transform="translate(16.089 159.532)" fill="#333" font-size="17" font-family="SourceHanSansCN-Bold, Source Han Sans CN" font-weight="700" letter-spacing="0.04em"><tspan x="0" y="0">NO.7</tspan></text>
+        <rect id="男头图" width="106.289" height="105.685" rx="12" transform="translate(104.26 18.146)" fill="url(#pattern)"/>
+      </g>
+      <g id="性价比组" transform="translate(1039.103 3268.86)" opacity="0.5">
+        <g transform="matrix(1, 0, 0, 1, -478.43, -264.47)" filter="url(#体积-3)">
+          <rect id="体积-8" data-name="体积" width="226.904" height="182.044" rx="18" transform="translate(478.43 264.47)" fill="#fff" opacity="0.8"/>
+        </g>
+        <rect id="卡底-2" data-name="卡底" width="225.259" height="179.966" rx="16" transform="translate(0.713 1.982)" fill="#f5f5f5"/>
+        <text id="性价比" transform="translate(16.414 29.457)" fill="#a8a8a8" font-size="14" font-family="SourceHanSansCN-Medium, Source Han Sans CN" font-weight="500"><tspan x="0" y="0">性价比</tspan></text>
+        <g id="评分" transform="translate(16.28 138.533)">
+          <text id="_9.7" data-name="9.7" transform="translate(0 20)" fill="#333" font-size="17" font-family="SourceHanSansCN-Bold, Source Han Sans CN" font-weight="700" letter-spacing="-0.02em"><tspan x="0" y="0">9.7</tspan></text>
+          <text id="_10" data-name="10" transform="translate(41.2 19.973)" fill="#a8a8a8" font-size="12" font-family="SourceHanSansCN-Regular, Source Han Sans CN" letter-spacing="-0.02em"><tspan x="0" y="0">10</tspan></text>
+          <text id="_" data-name="/" transform="translate(35.292 18.992)" fill="#a8a8a8" font-size="12" font-family="SourceHanSansCN-Regular, Source Han Sans CN" letter-spacing="0.04em"><tspan x="0" y="0">/</tspan></text>
+        </g>
+        <g id="液体球" transform="translate(75.662 16.099)">
+          <g data-type="innerShadowGroup">
+            <path id="路径_204-2" data-name="路径 204" d="M53.572,0A53.572,53.572,0,1,1,0,53.572,53.572,53.572,0,0,1,53.572,0Z" transform="translate(27.62 0)" fill="#eeeded"/>
+            <g transform="matrix(1, 0, 0, 1, -554.09, -280.57)" filter="url(#路径_204)">
+              <path id="路径_204-3" data-name="路径 204" d="M53.572,0A53.572,53.572,0,1,1,0,53.572,53.572,53.572,0,0,1,53.572,0Z" transform="translate(581.71 280.57)" fill="#fff"/>
+            </g>
+          </g>
+          <g id="蒙版组_37" data-name="蒙版组 37" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+            <path id="路径_177" data-name="路径 177" d="M-12.471,10.892c.552-.45,4.282-4.573,5.166-5.191C7.216-4.505,27.594,1.307,32.676.662c.1-.006-.5,13.045-2.229,14.654" transform="translate(55.485 16.104)" stroke="#cf1d0d" stroke-width="0.3" fill="url(#linear-gradient)"/>
+            <path id="路径_175" data-name="路径 175" d="M3.273,9.75s11.38,9.427,22.7,8.134S54.675-1.2,73.906.093,94.379,9.145,94.379,9.145l4.929,43.342L83.028,92.412,51.677,111.05-11.346,96.966-18.256,46.5l8.7-26.387L-4.176,3.552Z" transform="translate(42.197 8.391)" stroke="#cf1d0d" stroke-width="0.3" fill="url(#linear-gradient-2)"/>
+            <path id="路径_176" data-name="路径 176" d="M.43,3.043s16.144-5.5,24.757-1.637,19.343,9.123,31.273,5.068" transform="translate(77.587 19.595)" fill="none" stroke="#cf1d0d" stroke-width="0.3"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -554.09, -280.57)" filter="url(#椭圆_313)">
+            <path id="椭圆_313-2" data-name="椭圆 313" d="M53.973,1.3A52.888,52.888,0,0,0,16.723,16.511a51.715,51.715,0,0,0-11.285,16.5,51.411,51.411,0,0,0,0,40.409,51.715,51.715,0,0,0,11.285,16.5,53.326,53.326,0,0,0,57.758,11.131A52.548,52.548,0,0,0,91.224,89.927a51.715,51.715,0,0,0,11.285-16.5,51.411,51.411,0,0,0,0-40.409,51.715,51.715,0,0,0-11.285-16.5A52.888,52.888,0,0,0,53.973,1.3m0-1.3c29.809,0,53.973,23.827,53.973,53.219s-24.165,54.34-53.973,54.34S0,82.611,0,53.219,24.165,0,53.973,0Z" transform="translate(581.52 280.57)" fill="url(#linear-gradient-3)"/>
+          </g>
+        </g>
+      </g>
+      <g id="发型能力" transform="translate(789.979 3268.399)">
+        <g transform="matrix(1, 0, 0, 1, -229.3, -264.01)" filter="url(#体积-4)">
+          <path id="体积-9" data-name="体积" d="M16,0H210.9a16,16,0,0,1,16,16V163.893a18,18,0,0,1-18,18H18a18,18,0,0,1-18-18V16A16,16,0,0,1,16,0Z" transform="translate(229.3 264.01)" fill="#fff"/>
+        </g>
+        <rect id="卡底-3" data-name="卡底" width="225.259" height="179.966" rx="16" transform="translate(0.991 1.927)" fill="#f5f5f5"/>
+        <text id="发型能力-2" data-name="发型能力" transform="translate(16.089 29.918)" fill="#a8a8a8" font-size="14" font-family="SourceHanSansCN-Medium, Source Han Sans CN" font-weight="500"><tspan x="0" y="0">发型能力</tspan></text>
+        <text id="日式凌乱卷" transform="translate(72.09 159.967)" fill="#a8a8a8" font-size="13" font-family="SourceHanSansCN-Regular, Source Han Sans CN" letter-spacing="0.04em"><tspan x="0" y="0">日式凌乱卷</tspan></text>
+        <text id="NO.1" transform="translate(16.089 159.532)" fill="#333" font-size="17" font-family="SourceHanSansCN-Bold, Source Han Sans CN" font-weight="700" letter-spacing="0.04em"><tspan x="0" y="0">NO.1</tspan></text>
+        <rect id="女头图" width="106.289" height="105.685" rx="12" transform="translate(104.26 18.146)" fill="url(#pattern-2)"/>
+      </g>
+      <g id="季度数据-2" data-name="季度数据" transform="translate(729.494 3469.524)" opacity="0.5">
+        <g transform="matrix(1, 0, 0, 1, -168.82, -465.14)" filter="url(#体积-5)">
+          <rect id="体积-10" data-name="体积" width="470.301" height="187.862" rx="16" transform="translate(168.82 465.14)" fill="#fff"/>
+        </g>
+        <rect id="卡底-4" data-name="卡底" width="470.301" height="185.27" rx="16" transform="translate(0 2.591)" fill="#f5f5f5"/>
+        <g id="总评分" transform="translate(310.25 3.819)">
+          <path id="底-5" data-name="底" d="M70.391,0A70.391,70.391,0,1,1,0,70.391,70.391,70.391,0,0,1,70.391,0Z" transform="translate(0 22.478)" fill="#f2f2f2"/>
+          <g transform="matrix(1, 0, 0, 1, -479.07, -468.96)" filter="url(#红)">
+            <path id="红-2" data-name="红" d="M70.391,0A70.111,70.111,0,0,1,60.159,36.543L0,0" transform="matrix(0.21, -0.98, 0.98, 0.21, 549.46, 561.75)" fill="url(#radial-gradient-3)"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -479.07, -468.96)" filter="url(#黄)">
+            <path id="黄-2" data-name="黄" d="M70.391,0A70.455,70.455,0,0,1,33.516,61.915L0,0" transform="matrix(-0.76, -0.65, 0.65, -0.76, 549.58, 561.71)" fill="url(#radial-gradient-4)"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -479.07, -468.96)" filter="url(#绿)">
+            <path id="绿-2" data-name="绿" d="M115.932,0A70.391,70.391,0,0,1,45.541,70.391,70.232,70.232,0,0,1,0,53.676L45.541,0" transform="translate(549.61 516.16) rotate(90)" fill="url(#radial-gradient-5)"/>
+          </g>
+          <g data-type="innerShadowGroup">
+            <ellipse id="圆心体积-2" data-name="圆心体积" cx="41.765" cy="41.765" rx="41.765" ry="41.765" transform="translate(28.772 51.128)" fill="#fefefe"/>
+            <g transform="matrix(1, 0, 0, 1, -479.07, -468.96)" filter="url(#圆心体积)">
+              <ellipse id="圆心体积-3" data-name="圆心体积" cx="41.765" cy="41.765" rx="41.765" ry="41.765" transform="translate(507.84 520.09)" fill="#fff"/>
+            </g>
+          </g>
+          <g id="文字" transform="translate(50.753 64.514)">
+            <text id="_7.5_" data-name="7.5
+" transform="translate(0 30)" fill="#333" font-size="26" font-family="SourceHanSansCN-Bold, Source Han Sans CN" font-weight="700" letter-spacing="-0.02em"><tspan x="0" y="0">7.5</tspan><tspan x="0" y="23"></tspan></text>
+            <text id="得分" transform="translate(4.763 52.102)" fill="#999" font-size="12" font-family="SourceHanSansCN-Regular, Source Han Sans CN" letter-spacing="0.04em"><tspan x="0" y="0">得分</tspan></text>
+          </g>
+        </g>
+        <text id="季度数据-3" data-name="季度数据" transform="translate(23.321 32.195)" fill="#999" font-size="14" font-family="SourceHanSansCN-Medium, Source Han Sans CN" font-weight="500"><tspan x="0" y="0">季度数据</tspan></text>
+        <g id="评价数量" transform="translate(23.321 97.818)">
+          <g id="总" transform="translate(0)">
+            <text id="总单数-2" data-name="总单数" transform="translate(1.581 61.641)" fill="#999" font-size="13" font-family="SourceHanSansCN-Regular, Source Han Sans CN" letter-spacing="0.04em"><tspan x="0" y="0">总单数</tspan></text>
+            <text id="_282-2" data-name="282" transform="translate(0 29)" fill="#333" font-size="25" font-family="SourceHanSansCN-Bold, Source Han Sans CN" font-weight="700" letter-spacing="0.04em"><tspan x="0" y="0">282</tspan></text>
+          </g>
+          <g id="好" transform="translate(70.445)">
+            <text id="好评" transform="translate(9.159 60.641)" fill="#999" font-size="12" font-family="SourceHanSansCN-Regular, Source Han Sans CN" letter-spacing="0.04em"><tspan x="0" y="0">好评</tspan></text>
+            <text id="_105" data-name="105" transform="translate(0 29)" fill="#333" font-size="25" font-family="SourceHanSansCN-Bold, Source Han Sans CN" font-weight="700" letter-spacing="0.04em"><tspan x="0" y="0">105</tspan></text>
+          </g>
+          <g id="中" transform="translate(145.51)">
+            <text id="中评" transform="translate(1.465 60.641)" fill="#999" font-size="12" font-family="SourceHanSansCN-Regular, Source Han Sans CN" letter-spacing="0.04em"><tspan x="0" y="0">中评</tspan></text>
+            <text id="_46" data-name="46" transform="translate(0 29)" fill="#333" font-size="25" font-family="SourceHanSansCN-Bold, Source Han Sans CN" font-weight="700" letter-spacing="0.04em"><tspan x="0" y="0">46</tspan></text>
+          </g>
+          <g id="差" transform="translate(214.176)">
+            <text id="差评" transform="translate(1.465 60.641)" fill="#999" font-size="12" font-family="SourceHanSansCN-Regular, Source Han Sans CN" letter-spacing="0.04em"><tspan x="0" y="0">差评</tspan></text>
+            <text id="_22" data-name="22" transform="translate(0 29)" fill="#333" font-size="25" font-family="SourceHanSansCN-Bold, Source Han Sans CN" font-weight="700" letter-spacing="0.04em"><tspan x="0" y="0">22</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g id="边缘过渡遮盖组" transform="translate(469.514 3009.345)">
+        <path id="左" d="M-41.439,0H259.544s-56.527,188.915-56.527,363.915S259.544,700,259.544,700H-41.439Z" transform="translate(33.571)" fill="#f9f9f9"/>
+        <path id="右" d="M265.694,0H0S56.527,188.915,56.527,363.915,0,700,0,700H265.694Z" transform="translate(695.924)" fill="#f9f9f9"/>
+      </g>
+    </g>
+  </g>
+</svg>

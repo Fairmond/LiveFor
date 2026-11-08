@@ -1,0 +1,119 @@
+import * as React from "react"
+import { memo } from "react"
+const SvgComponent = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+    width={1485}
+    height={871}
+    {...props}
+  >
+    <defs>
+      <linearGradient
+        id="c"
+        x1={0.742}
+        x2={0.338}
+        y1={1.641}
+        y2={-0.243}
+        gradientUnits="objectBoundingBox"
+      >
+        <stop offset={0} stopColor="#3b3b3b" />
+        <stop offset={1} />
+      </linearGradient>
+      <clipPath id="b">
+        <circle
+          cx={7.309}
+          cy={7.309}
+          r={7.309}
+          fill="#fff"
+          data-name="\u692D\u5706 321"
+          opacity={0.22}
+        />
+      </clipPath>
+      <pattern
+        id="a"
+        width="100%"
+        height="100%"
+        preserveAspectRatio="xMidYMid slice"
+        viewBox="0 0 6736 5052"
+      >
+        <image
+          xlinkHref="%E5%B0%BE%E9%A1%B5%E6%A0%B7%E6%9C%BA.png"
+          width={6736}
+          height={5052}
+        />
+      </pattern>
+    </defs>
+    <path fill="#f9f9f9" d="M45 0h1440v800H45z" data-name="\u77E9\u5F62 468" />
+    <path fill="url(#a)" d="M0 0h1162v871H0z" />
+    <g
+      clipPath="url(#b)"
+      data-name="\u8499\u7248\u7EC4 57"
+      transform="translate(573.692 138.646)"
+    >
+      <image
+        xlinkHref="Body.png"
+        width={1163.567}
+        height={872.675}
+        transform="translate(-605.16 -149.173)"
+      />
+    </g>
+    <g data-name="\u7EC4 159" transform="translate(80 -4918)">
+      <image
+        xlinkHref="%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/logo%E9%BB%91%E7%BA%A2.png"
+        width={325}
+        height={325}
+        transform="translate(720 5071)"
+      />
+      <text
+        data-name="LIVEFOR \u7406\u6CD5"
+        fontFamily="FZYooncheQWHS-M--GB1-0, FZYooncheQWHS"
+        fontSize={42}
+        letterSpacing="-.05em"
+        transform="translate(765 5386)"
+      >
+        <tspan x={0} y={0}>
+          {"LIVEFOR"}
+        </tspan>
+        <tspan y={0} fontFamily="FZYooncheQWHS-B--GB1-0, FZYooncheQWHS" />
+        <tspan y={0} fontFamily="FZYooncheQWHS-R--GB1-0, FZYooncheQWHS">
+          {"\u7406\u6CD5"}
+        </tspan>
+      </text>
+    </g>
+    <g data-name="\u7EC4 161">
+      <g
+        fill="url(#c)"
+        stroke="#707070"
+        data-name="\u77E9\u5F62 473"
+        transform="translate(819 578)"
+      >
+        <rect width={287} height={70} stroke="none" rx={35} />
+        <rect width={286} height={69} x={0.5} y={0.5} fill="none" rx={34.5} />
+      </g>
+      <text
+        fill="#f9f9f9"
+        fontFamily="FZYooncheQWHS-R--GB1-0, FZYooncheQWHS"
+        fontSize={36}
+        transform="translate(921 626)"
+      >
+        <tspan x={0} y={0}>
+          {"\u4E0B\u8F7D\u7406\u6CD5"}
+        </tspan>
+      </text>
+      <g fill="none" stroke="#f9f9f9" strokeWidth={2.5} data-name="\u7EC4 160">
+        <g data-name="\u77E9\u5F62 474" transform="translate(857 597)">
+          <rect width={22} height={33} stroke="none" rx={7} />
+          <rect width={19.5} height={30.5} x={1.25} y={1.25} rx={5.75} />
+        </g>
+        <path
+          strokeLinecap="round"
+          d="M866.084 603.703h3.826"
+          data-name="\u76F4\u7EBF 145"
+        />
+      </g>
+    </g>
+  </svg>
+)
+const Memo = memo(SvgComponent)
+export { Memo as ReactComponent }
