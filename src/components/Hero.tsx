@@ -83,8 +83,36 @@ export default function Hero() {
               <button
                 type="button"
                 onClick={() => {
-                  const el = document.getElementById('promo-section') || document.getElementById('unified-features-section');
-                  el?.scrollIntoView({ behavior: 'smooth' });
+                  const titleEl = document.getElementById('promo-section-title') || document.querySelector('#promo-section h2');
+                  if (titleEl) {
+                    const rect = titleEl.getBoundingClientRect();
+                    const scrollTop = window.scrollY || document.documentElement.scrollTop;
+                    const targetY = scrollTop + rect.top - (window.innerHeight - rect.height) / 2;
+
+                    const lenis = (window as any).lenis;
+                    if (lenis && typeof lenis.scrollTo === 'function') {
+                      // 速度降至 80%：由 1.2s 延展至 1.5s
+                      lenis.scrollTo(targetY, { duration: 1.5 });
+                    } else {
+                      const startY = scrollTop;
+                      const diff = Math.max(0, targetY) - startY;
+                      const duration = 1500;
+                      const startTime = performance.now();
+                      const step = (now: number) => {
+                        const elapsed = now - startTime;
+                        const progress = Math.min(elapsed / duration, 1);
+                        const ease = progress < 0.5 
+                          ? 4 * progress * progress * progress 
+                          : 1 - Math.pow(-2 * progress + 2, 3) / 2;
+                        window.scrollTo(0, startY + diff * ease);
+                        if (progress < 1) requestAnimationFrame(step);
+                      };
+                      requestAnimationFrame(step);
+                    }
+                  } else {
+                    const sectionEl = document.getElementById('promo-section');
+                    sectionEl?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                  }
                 }}
                 className="group relative cursor-pointer outline-none border-0 bg-transparent p-0 transition-transform duration-300 hover:scale-105 active:scale-95"
                 aria-label="我们改变了什么"

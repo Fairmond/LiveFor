@@ -67,9 +67,11 @@ export const MobileFuturePromo: React.FC = () => {
   return (
     <section 
       ref={sectionRef}
+      id="mobile-promo-section"
       className="relative z-30 w-full max-w-[430px] bg-[#f9f9f9] pt-8 xs:pt-10 pb-8 xs:pb-10 px-6 flex flex-col items-center text-center select-none"
     >
       <motion.h2
+        id="mobile-promo-title"
         initial="idle"
         animate={animState}
         variants={titleVariants}

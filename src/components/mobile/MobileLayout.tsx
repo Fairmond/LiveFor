@@ -254,19 +254,47 @@ export const MobileLayout: React.FC<{
               </text>
             </g>
 
-            {/* 改变胶囊按钮 (改变按钮)：274 x 53 水平完美居中 */}
+            {/* 改变胶囊按钮 (改变按钮)：274 x 53 水平完美居中，原地等比缩放，彻底消除按下位移 */}
             <g 
               id="改变按钮" 
-              transform={`translate(-494 ${45.613 + contentYOffset})`} 
-              className="cursor-pointer active:scale-95 transition-transform"
-              onClick={() => onNavigate?.('product-design')}
+              className="cursor-pointer transition-all duration-150 active:scale-95 active:opacity-85"
+              style={{
+                transformOrigin: `${197}px ${544.5 + contentYOffset}px`,
+              }}
+              onClick={() => {
+                const titleEl = document.getElementById('mobile-promo-title') || document.querySelector('#mobile-promo-section h2');
+                if (titleEl) {
+                  const rect = titleEl.getBoundingClientRect();
+                  const scrollTop = window.scrollY || document.documentElement.scrollTop;
+                  const targetY = scrollTop + rect.top - (window.innerHeight - rect.height) / 2;
+                  const startY = scrollTop;
+                  const diff = Math.max(0, targetY) - startY;
+                  // 速度降至 80%（更为温润和缓的 1350ms 平滑缓动）
+                  const duration = 1350;
+                  const startTime = performance.now();
+                  const step = (now: number) => {
+                    const elapsed = now - startTime;
+                    const progress = Math.min(elapsed / duration, 1);
+                    const ease = progress < 0.5 
+                      ? 4 * progress * progress * progress 
+                      : 1 - Math.pow(-2 * progress + 2, 3) / 2;
+                    window.scrollTo(0, startY + diff * ease);
+                    if (progress < 1) requestAnimationFrame(step);
+                  };
+                  requestAnimationFrame(step);
+                } else {
+                  const el = document.getElementById('mobile-promo-section');
+                  el?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+              }}
             >
               <rect 
                 id="Liquid_Glass_Capsule" 
+                x={60}
+                y={518 + contentYOffset}
                 width="274" 
                 height="53" 
                 rx="26.5"
-                transform="translate(554 472.387)" 
                 fill="url(#m_capsule_pattern)" 
               />
             </g>
