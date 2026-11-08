@@ -86,7 +86,7 @@ export const MobileLayout: React.FC<{
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const containerWidth = Math.min(viewportWidth, 430) || 393;
+  const containerWidth = viewportWidth || 393;
   // 动态计算 SVG viewBox 高度，确保纵横比与窗口完全等比贴合无缝隙
   const viewBoxHeight = Math.max(680, Math.round((393 * viewportHeight) / containerWidth));
   // 窗口变长时的垂直微调，使内容在首屏保持优美留白与呼吸感
@@ -100,7 +100,7 @@ export const MobileLayout: React.FC<{
   const circleSize = useTransform(
     scrollY,
     [0, 80, 260],
-    [0, containerWidth * 1.15, Math.max(780, containerWidth * 2.3)]
+    [0, containerWidth * 1.25, Math.max(880, containerWidth * 2.5)]
   );
   const circleOpacity = useTransform(
     scrollY,
@@ -123,7 +123,7 @@ export const MobileLayout: React.FC<{
           y: navY,
           opacity: navOpacity,
         }}
-        className="fixed top-[max(18px,calc(env(safe-area-inset-top)+4px))] z-50 w-full max-w-[430px] px-3 flex justify-center pointer-events-none will-change-transform"
+        className="fixed top-[max(18px,calc(env(safe-area-inset-top)+4px))] z-50 w-full px-3 flex justify-center pointer-events-none will-change-transform"
       >
         <div className="w-full max-w-[369px] h-[54.2px] pointer-events-auto rounded-[18px] border-0 outline-none backdrop-blur-md filter drop-shadow-[0_4px_16px_rgba(0,0,0,0.3)]">
           <svg
@@ -170,9 +170,9 @@ export const MobileLayout: React.FC<{
         </div>
       </motion.header>
 
-      {/* 1. Mobile Top: 移动端首页长度和窗口长度动态相等 (shrink-0 防止 flex 子元素被压缩) */}
+      {/* 1. Mobile Top: 移动端首页全屏沉浸视频背景，100% 满屏无两侧白边 */}
       <div 
-        className="relative w-full max-w-[430px] shrink-0 select-none overflow-hidden h-[100dvh] min-h-[100dvh]"
+        className="relative w-full shrink-0 select-none overflow-hidden h-[100dvh] min-h-[100dvh] bg-[#070A13]"
         style={{ height: `${viewportHeight}px`, minHeight: '100dvh' }}
       >
         {/* Background Video & Poster Layer - 去掉黑黑的全屏遮罩，还原本色 */}
